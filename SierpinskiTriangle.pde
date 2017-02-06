@@ -25,7 +25,7 @@ public void sierpinski(int rex, int why, int lense)
 	else
 	{
 		//rotate(1);
-    fill((float)Math.random() * 360, (float)Math.random() * 360, (float)Math.random() * 360);
+    //fill((float)Math.random() * 360, (float)Math.random() * 360, (float)Math.random() * 360);
     stroke(1);
 		triangle(x, y, x + len, y, x + len/2, y + len);
         //sierpinski(x/2, y, len/2);
